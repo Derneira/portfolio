@@ -1,20 +1,44 @@
-.cabeçalho{
+header{
   color: rgb(255, 255, 255);
   background-color: black;
   padding: 15px;
   font-size: 40px;
   font-family: 'Lobster', cursive;
   border-radius: 10px;
-
   width: 100%;
-
   display:flex;
 }
-body{
-background: rgb(47,47,47);
-background: linear-gradient(90deg, rgba(47,47,47,1) 0%, rgba(217,217,217,1) 100%);
+body{background: rgb(73,73,73);
+background: linear-gradient(90deg, rgba(73,73,73,1) 0%, rgba(168,168,168,1) 50%, rgba(73,73,73,1) 100%);}
+.sobremim{
+    font-family: 'Shantell Sans', cursive;
+    color: rgb(255, 255, 255);
+  font-size: 35px;
+  text-align: center;
+  margin: 40px;
 }
-.separaçao{
+.escola{
+    font-family: 'Shantell Sans', cursive;
+  color:rgb(255, 255, 255);
+  font-size: 35px;
+  text-align: center;
+  margin: 40px;
+}
+.sobremim2{
+  font-family: 'Shantell Sans', cursive;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 25px;
+}
+.escola2{
+  font-family: 'Shantell Sans', cursive;
+  text-align: center;
   color: black;
-  text-anchor: middle;
+  font-size: 25px;
+}
+footer{
+  margin-top: 43%;
+  background-color: rgb(59, 59, 59);
+  padding: 15px;
+  display: flex;
 }
