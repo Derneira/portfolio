@@ -1,44 +1,62 @@
 header{
-  color: rgb(255, 255, 255);
-  background-color: black;
-  padding: 15px;
-  font-size: 40px;
-  font-family: 'Lobster', cursive;
-  border-radius: 10px;
-  width: 100%;
-  display:flex;
-}
-body{background: rgb(73,73,73);
-background: linear-gradient(90deg, rgba(73,73,73,1) 0%, rgba(168,168,168,1) 50%, rgba(73,73,73,1) 100%);}
-.sobremim{
-    font-family: 'Shantell Sans', cursive;
+  display: flex;
     color: rgb(255, 255, 255);
-  font-size: 35px;
-  text-align: center;
-  margin: 40px;
-}
-.escola{
+    background-color: black;
+    padding: 15px;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    border-radius: 10px;
+    gap: 90%;
+  }
+  body{background: rgb(73,73,73);
+  background: linear-gradient(90deg, rgba(73,73,73,1) 0%, rgba(168,168,168,1) 50%, rgba(73,73,73,1) 100%);}
+  .sobremim{
+      font-family: 'Shantell Sans', cursive;
+      color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin: 40px;
+  }
+  .escola{
+      font-family: 'Shantell Sans', cursive;
+    color:rgb(255, 255, 255);
+    font-size: 35px;
+    text-align: center;
+    margin: 40px;
+  }
+  .sobremim2{
     font-family: 'Shantell Sans', cursive;
-  color:rgb(255, 255, 255);
-  font-size: 35px;
-  text-align: center;
-  margin: 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 25px;
+  }
+  .escola2{
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+  }
+  a{
+    color: white;
+  }
+  body::-webkit-scrollbar {
+    width: 0px;    
 }
-.sobremim2{
-  font-family: 'Shantell Sans', cursive;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  font-size: 25px;
+
+body::-webkit-scrollbar-track{
+    background: rgb(17, 17, 17);
 }
-.escola2{
-  font-family: 'Shantell Sans', cursive;
-  text-align: center;
-  color: black;
-  font-size: 25px;
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(41, 40, 40);  
+    border-radius: 5px;    
+    border: 0px solid rgb(17, 17, 17); 
 }
 footer{
-  margin-top: 43%;
-  background-color: rgb(59, 59, 59);
-  padding: 15px;
-  display: flex;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 25%;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
