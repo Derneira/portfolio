@@ -7,33 +7,36 @@ header{
     font-family: 'Lobster', cursive;
     border-radius: 10px;
     gap: 90%;
+    size: 100%;
   }
-  body{background: rgb(73,73,73);
-  background: linear-gradient(90deg, rgba(73,73,73,1) 0%, rgba(168,168,168,1) 50%, rgba(73,73,73,1) 100%);}
+  body{
+    background: rgb(19,19,19);
+background: linear-gradient(90deg, rgba(19,19,19,1) 0%, rgba(128,128,128,1) 100%);
+  }
   .sobremim{
-      font-family: 'Shantell Sans', cursive;
-      color: rgb(255, 255, 255);
+    font-family: 'Cabin Sketch', cursive;
+      color: rgb(0, 0, 0);
     font-size: 35px;
     text-align: center;
     margin: 40px;
   }
   .escola{
-      font-family: 'Shantell Sans', cursive;
-    color:rgb(255, 255, 255);
+    font-family: 'Cabin Sketch', cursive;
+    color:rgb(0, 0, 0);
     font-size: 35px;
     text-align: center;
     margin: 40px;
   }
   .sobremim2{
     font-family: 'Shantell Sans', cursive;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 25px;
   }
   .escola2{
     font-family: 'Shantell Sans', cursive;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 25px;
   }
   a{
@@ -50,13 +53,8 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(41, 40, 40);  
     border-radius: 5px;    
     border: 0px solid rgb(17, 17, 17); 
+    width: 100%;
 }
-footer{
-  background-color: black;
-  color: white;
-  padding: 10px;
-  margin-top: 25%;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+.iconegit{
+  width: 100%;
 }
