@@ -6,7 +6,7 @@ header{
     font-size: 40px;
     font-family: 'Lobster', cursive;
     border-radius: 10px;
-    gap: 0;
+    gap: 90%;
     size: 100%;
   }
   body{
@@ -22,7 +22,7 @@ background: linear-gradient(90deg, rgba(19,19,19,1) 0%, rgba(128,128,128,1) 100%
   }
   .escola{
     font-family: 'Cabin Sketch', cursive;
-    color:rgb(255, 255, 255);
+    color:rgb(255, 249, 249);
     font-size: 35px;
     text-align: center;
     margin: 40px;
@@ -57,4 +57,9 @@ body::-webkit-scrollbar-thumb {
 }
 .iconegit{
   width: 100%;
+  margin-top: 1%;
+  margin-left: -1%;
+}
+.jaja{
+  margin-top: 26.6%;
 }
